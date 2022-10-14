@@ -23,7 +23,7 @@ export default function Coffee() {
             <div className='category__form'>
                 <div className='list__category'>
                     {category?.map?.((item) => {
-                        if(item.type === "coffee"){
+                        if(item.type === "Hiếm"){
                             return <div onClick={() => handleCoffeeDetail(item)} key={item.id} className="item__category">
                                         <img src={item.image} alt="" />
                                         <p>{item.productName}</p>

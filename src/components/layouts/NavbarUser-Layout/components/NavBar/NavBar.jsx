@@ -1,5 +1,5 @@
 import React from "react";
-import LogoPage from "../../../../../assets/logo.174bdfd.svg";
+import LogoPage from "../../../../../assets/logo-title.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import {UserOutlined, SearchOutlined, DashboardOutlined} from '@ant-design/icons';
 import { Button, Drawer, Dropdown, Menu, Space, Badge } from "antd";
@@ -113,7 +113,7 @@ export default function NavBar() {
   };
 
   const navigate = useNavigate();
-  const handleCoffeeDetail = (item) => {
+  const handleDetail = (item) => {
     navigate(`/product-detail/${item.id}`, { state: { ...item } });
   };
 
@@ -126,7 +126,7 @@ export default function NavBar() {
             <NavLink to={"/"}>
               <li>Trang chủ</li>
             </NavLink>
-            <NavLink to={'/products/coffee'}>
+            <NavLink to={'/products'}>
               <li>Sản phẩm</li>
             </NavLink>
             <NavLink to={"/cart"}>
@@ -175,7 +175,7 @@ export default function NavBar() {
             {(productState?.search ?? []).map?.((item, index) => {
               return (
                 <div
-                  onClick={() => handleCoffeeDetail(item)}
+                  onClick={() => handleDetail(item)}
                   key={index}
                   className="product__listing"
                 >

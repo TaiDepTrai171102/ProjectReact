@@ -12,7 +12,7 @@ import Header from '../pages/Header';
 import CategoryProduct from '../pages/products/CategoryProduct';
 
 
-export function CoffeeApp() {
+export function OnepieceApp() {
 	return (
 		<>
 			<BrowserRouter>
@@ -22,8 +22,8 @@ export function CoffeeApp() {
 					<Route path='/Login' element={<Header/>}></Route>
 					<Route path='/cart' element={<Header/>}></Route>
 					<Route path='/profile' element={<Header/>}></Route>
-					<Route path='/products/coffee' element={<CategoryProduct/>}></Route>
-					<Route path='/products/tra-trai-cay-tra-sua' element={<CategoryProduct/>}></Route>
+					<Route path='/products/hanghiem' element={<CategoryProduct/>}></Route>
+					<Route path='/products/hangcuchiem' element={<CategoryProduct/>}></Route>
 					<Route path='/register' element={<Header/>}></Route>
 					<Route path='/cart/success/:id' element={<Success/>}></Route>
 					<Route path='/order-list/detail:id' element={<OrderDetail></OrderDetail>}></Route>

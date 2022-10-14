@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../../../assets/footer.jpg'
+import Footer from '../../../assets/logo.jfif'
 import LogoFooter from '../../..//assets/logo.174bdfd.svg'
 import active from '../../..//assets/active.4cba64f.png'
 

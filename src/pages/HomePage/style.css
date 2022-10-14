@@ -4,4 +4,28 @@
   padding: 50px;
   background-color: #FF7700;
   margin-top: 80px;
+  object-fit: cover;
+}
+.gutter-row{
+  position: relative;
+  top:10px;
+}
+.gutter-col{
+  position: relative;
+  left:100px;
+}
+.service-title{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  left: -100px;
+  
+}
+.service-content{
+  text-align: center;
+  position: relative;
+  left: -100px;
+
 }

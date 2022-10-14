@@ -10,10 +10,10 @@ NavBarLayout.propTypes = {
 export default function NavBarLayout(props) {
     const { children } = props;
     return (
-        <>
+        <div className='body'>
             <NavBar/>
             {children}
             <FooterCbn/>
-        </>
+        </div>
     )
 }

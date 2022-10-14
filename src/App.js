@@ -1,10 +1,10 @@
 import './App.css';
-import { CoffeeApp } from './components/CoffeeApp';
+import { OnepieceApp } from './components/OnepieceApp';
 
 function App() {
   return (
     <>
-      <CoffeeApp></CoffeeApp>
+      <OnepieceApp></OnepieceApp>
     </>
   );
 }
