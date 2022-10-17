@@ -18,7 +18,7 @@ import "react-pro-sidebar/dist/css/styles.css";
 import NavBarAdmin from '../../../../../components/layouts/NabarAdmin-Layout/components/NabarAdmin';
 const orderRouter = {
   all:{ title: 'All', url: '/admin/products/all' },
-  coffee:{ title: 'Coffee', url: '/admin/products/coffee' },
+  hiem:{ title: 'Hiem', url: '/admin/products/hiem' },
   cake: { title: 'Other', url: '/admin/products/other' },
   add_product: { title: 'Add-Product', url: '/admin/products/add-product' },
 
@@ -45,9 +45,6 @@ export default function ProductLayout() {
           <SidebarHeader>
               <div className="logotext">
                 {!menuCollapse &&<p>Manager</p>}
-                <div className="closemenu" onClick={menuIconClick}>
-                  {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
-                </div>
               </div>
             </SidebarHeader>
           <SidebarContent>

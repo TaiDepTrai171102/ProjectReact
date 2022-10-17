@@ -9,10 +9,10 @@ export default function CategoryHeader() {
                 <h1 className='title__category'><ShopOutlined /> Sản phẩm</h1>
                 <div className="category__item">
                     <NavLink to={'/products/hanghiem'}>
-                        <p>Cà Phê</p>
+                        <p>Hàng hiếm</p>
                     </NavLink>
                     <NavLink to={'/products/hangcuchiem'}>
-                        <p>Trà cái cây - trà sữa</p>
+                        <p>Hàng cực hiếm</p>
                     </NavLink>
                 </div>
             </div>

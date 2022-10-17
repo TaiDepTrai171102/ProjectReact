@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteProductAction, fetchProductAction, PRODUCT_LIMIT } from "../../../../../stores/slices/admin.product.slice";
 import { Pagination } from "antd";
 
-function Coffee() {
+function Hiem() {
     const listProduct = useSelector(state => state.adminProduct.productState);
     
     const [showDetail, setShowDetail] = useState(false);
@@ -43,7 +43,7 @@ function Coffee() {
             <div>
                 <>
                     {listProduct.data.map((item, index) => {
-                        if(item.type === 'coffee')
+                        if(item.type === 'Hiếm')
                         return (
                             <>
                                 <div className="product-item" key={index} onClick={() => handleDetailItem(item)}>
@@ -77,4 +77,4 @@ function Coffee() {
     );
 }
 
-export default Coffee;
+export default Hiem;

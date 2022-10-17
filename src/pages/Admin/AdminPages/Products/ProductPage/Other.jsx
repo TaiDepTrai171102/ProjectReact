@@ -41,7 +41,7 @@ function Other() {
             <div>               
                 <>
                     {listProduct.data.map((item, index) => {
-                        if(item.type === 'other')
+                        if(item.type === 'Cực hiếm')
                         return (
                             <>
                                 <div className="product-item" key={index} onClick={() => handleDetailItemCake(item)}>

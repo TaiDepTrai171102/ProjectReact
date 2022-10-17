@@ -9,7 +9,7 @@ export default function FooterCbn() {
 			<div className="footer">
 				<img src={Footer} alt="" />
 				<div className="footer__logo">
-					<img src={LogoFooter} alt="" />
+				
 				</div>
 				<div className="footer__content">
 					<div className="list__content">
@@ -23,10 +23,11 @@ export default function FooterCbn() {
 						<div className="address">
 							<b>- Thông tin</b>
 							<ul>
-								<li>Head Office 1: 86 - 88 Cao Thắng, Ward 4, District 3, Hồ Chí Minh, Việt Nam</li>
-								<li>Head Office 2: Floor 3 & 4 The Hub Building - 195/10E Điện Biên Phủ, Ward 15, Bình Thạnh District , Hồ Chí Minh, Việt Nam</li>
-								<li>+842871 078 079</li>
-								<li>hi@thecoffeehouse.vn</li>
+							<li ><strong style={{color: 'yellow'}}>♦ Địa Chỉ Giao Dịch Trực Tiếp Tại Đà Nẵng:</strong><a href="#" title="68 Nguyễn Chí Thanh - Đống Đa - Hà Nội">47 An Hải 21 - Sơn Trà - Đà Nẵng</a></li>
+        					<li ><strong style={{color: 'yellow'}}>♦ Hotline:</strong><a href="tel:Mobi: 07.9898.6666 - Viettel: 034.637.2233">07 9898 6666 - 034 637 2233</a></li>
+        					<li ><strong style={{color: 'yellow'}}>♦ FaceBook:</strong><a href="https://www.facebook.com/shopchuongcfhn" title="Chương Trần">Phạm Minh Tài</a></li>
+        					<li ><strong style={{color: 'yellow'}}>♦ Email:</strong><a href="mailto:Shopchuongcf@gmail.com" title="Shopchuongcf@gmail.com">phamtin454545@gmail.com</a></li>
+					
 							</ul>
 						</div>
 					</div>

@@ -75,7 +75,7 @@ function AddProducts() {
     };    
     return ( 
         <div className="add-products">
-                <h2>Add Products <span className="close-add" onClick={toggle}>X</span></h2>
+                <h2>Add Products <span className="close-add" onClick={toggle}></span></h2>
                 <p className="label-input">
                         <label>Product Name:</label>
                         <input className="input-product"  type= "text"name="productName" value = {newTodoValue.productName}

@@ -6,7 +6,7 @@ import AdminProductLayout from "./ProductLayout/AdminProductLayout";
 import AddProducts from "./ProductPage/AddProducts";
 import AllProducts from "./ProductPage/AllProducts";
 import Other from "./ProductPage/Other";
-import Coffee from "./ProductPage/Coffee";
+import Hiem from "./ProductPage/Hiem"
 
 function Products() {
   const location = useLocation();
@@ -16,8 +16,8 @@ function Products() {
     switch (location.pathname) {
       case "/admin/products/all":
         return <AllProducts/>;
-      case "/admin/products/coffee":
-        return <Coffee/>;
+      case "/admin/products/hiem":
+        return <Hiem/>;
       case "/admin/products/other":
         return <Other/>;
       case "/admin/products/add-product":

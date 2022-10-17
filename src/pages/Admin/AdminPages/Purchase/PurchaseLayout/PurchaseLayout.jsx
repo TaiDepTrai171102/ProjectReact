@@ -52,9 +52,7 @@ export default function PurchaseLayout() {
           <SidebarHeader>
               <div className="logotext">
                 {!menuCollapse &&<p>Manager</p>}
-                <div className="closemenu" onClick={menuIconClick}>
-                  {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
-                </div>
+               
               </div>
             </SidebarHeader>
           <SidebarContent>

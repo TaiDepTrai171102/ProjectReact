@@ -16,7 +16,7 @@ const listSize = [
     { label: 'Lớn', price: 10 },
 ]
 
-export default function DetailCoffee() {
+export default function DetailProduct() {
     const [value, setValue] = useState(0);
     const [count, setCount] = useState(1);
     const location = useLocation()

@@ -7,7 +7,7 @@ import Turnover from '../pages/Admin/AdminPages/Turnover/Turnover';
 import Success from '../pages/auth/Cart/CheckoutSuccess/Success';
 import OrderDetail from '../pages/auth/PurchaseHistory/OrderDetail/OrderDetail';
 import PurchaseHistory from '../pages/auth/PurchaseHistory/PurchaseHistory';
-import DetailCoffee from '../pages/DetailCoffee/DetailCoffee';
+import DetailProduct from '../pages/DetailProduct/DetailProduct';
 import Header from '../pages/Header';
 import CategoryProduct from '../pages/products/CategoryProduct';
 
@@ -18,7 +18,7 @@ export function OnepieceApp() {
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<Header/>}></Route>
-					<Route path='/product-detail/:id' element={<DetailCoffee/>}></Route>
+					<Route path='/product-detail/:id' element={<DetailProduct/>}></Route>
 					<Route path='/Login' element={<Header/>}></Route>
 					<Route path='/cart' element={<Header/>}></Route>
 					<Route path='/profile' element={<Header/>}></Route>
@@ -34,7 +34,7 @@ export function OnepieceApp() {
 					<Route path='/dashboard' element={<Navigate to='/admin/products'/>}></Route>
 					<Route path="/admin/products" element ={<Navigate to="/admin/products/all"/>}/>
 					<Route path="/admin/products/all" element = {<Products/>}></Route>
-					<Route path="/admin/products/coffee" element = {<Products/>}></Route>
+					<Route path="/admin/products/hiem" element = {<Products/>}></Route>
                     <Route path="/admin/products/other" element = {<Products/>}></Route>
                     <Route path="/admin/products/add-product" element = {<Products/>}></Route>
 					<Route path="/admin/purchase" element = {<Navigate to="/admin/purchase/confirm"/>}></Route>
