@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "email": "taideptrai171102@gmail.com",
+      "password": "$2a$10$diXhqJzmbpcZtZsNIouKWeyzHCu3x4eGYYBEGKWlwLUTrtdSe5lv2",
+      "name": "Phạm Minh Tài",
+      "phone": "0712123123",
+      "address": "qưqfqf",
+      "decentralization": "admin",
+      "id": 1
+    },
+    {
+      "email": "phamtin454545@gmail.com",
+      "password": "$2a$10$2c.YT0U71G6.Bunp6iJfx.IhNeL.9278OGXiucMgSXa7Mgi/9SbmK",
+      "decentralization": "member",
+      "id": 2
+    },
+    {
+      "email": "phamtin45454545@gmail.com",
+      "password": "$2a$10$Angtx0XfFacQRFteQ2iHv.GM9aBlUEVZmmHMzXf/jRU/6LbkJwMhS",
+      "decentralization": "member",
+      "id": 3,
+      "name": "Tài Phạm",
+      "phone": "0779438986",
+      "address": "47 An Hải 20"
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "productName": "Mô Hình One Piece - Mô Hình Phó Đô Đốc Hải Quân Kuzan Cỡ Lớn",
+      "type": "Hiếm",
+      "image": "https://vn-test-11.slatic.net/p/a4996be5a14d363ac1c5001afac7a9a5.jpg",
+      "price": "35",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "productName": "Mô Hình One Piece  - Nhân Vật Portgas D. ACE Bản Lớn ",
+      "type": "Hiếm",
+      "image": "https://media3.scdn.vn/img4/2020/10_06/FMCQ4bq4rJA03RTCuRYh.jpg",
+      "price": "30",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "productName": "Mô hình Figure One piece Monkey D. Luffy vs Rồng Kaido arc Wano Cực đẹp Cỡ lớn",
+      "type": "Hiếm",
+      "image": "https://media3.scdn.vn/img4/2021/07_14/NLlqjJcGWAFiDg924PGv.jpg",
+      "price": "35",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "productName": "Mô hình Zoro Đại chiến ở wano quốc (one piece)",
+      "type": "Hiếm",
+      "image": "https://cf.shopee.vn/file/d6c9a6304dae5cf494092b39b18da9c5",
+      "price": "49",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "productName": "Mô hình nhân vật Sanji , mô hình onepiece cực đẹp",
+      "type": "Cực hiếm",
+      "image": "https://cf.shopee.vn/file/29a3be5e790bac8804f4ed5dc605c7b0",
+      "price": "49",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "productName": "Mô hình - Figure Mihawk - One Piece Cao 18Cm",
+      "type": "Cực hiếm",
+      "image": "https://salt.tikicdn.com/ts/product/e3/52/43/39b103be5cfce8d44f4efaba17ab6a07.jpg",
+      "price": "45",
+      "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi và lớp foam cheese béo ngậy. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
+    },
+    {
+      "id": 10,
+      "productName": "Mô hình người cá jinbei (one piece)",
+      "type": "Cực hiếm",
+      "image": "https://cf.shopee.vn/file/b380d46cc90b366fc914b8b61c467475",
+      "price": "49",
+      "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
+    },
+    {
+      "id": 11,
+      "productName": "Mô hình One Piece - Mô hình đô đốc hải quân Kizaru DD01",
+      "type": "Cực hiếm",
+      "image": "https://cf.shopee.vn/file/128063f994df73901289972a64ec783c",
+      "price": "44",
+      "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
+    },
+    {
+      "id": 12,
+      "productName": "Mô hình One Piece - Mô hình Usopp US02",
+      "type": "Cực hiếm",
+      "image": "https://cf.shopee.vn/file/134a4e2eb34fd2c1f733df5fe7c6f702",
+      "price": "49",
+      "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
+    },
+    {
+      "id": 13,
+      "productName": "Mô hình One Piece - Mô hình Gekko Moriah cựu thất vũ hải M01",
+      "type": "Cực hiếm",
+      "image": "https://vn-test-11.slatic.net/p/a0c6309405c9ea7d844a513e9390722f.jpg",
+      "price": "55",
+      "description": ""
+    },
+    {
+      "id": 14,
+      "productName": "Mô hình One Piece - Mô Hình BARTHOLOMEW KUMA T01",
+      "type": "Cực hiếm",
+      "image": "https://cf.shopee.vn/file/bb72e5d20c18a61542e551dededd2c15",
+      "price": "55",
+      "description": "g"
+    }
+  ],
+  "order": [
+    {
+      "id": "b31f00cb-5bdc-4a42-81db-d24eba74fdbf",
+      "userId": 3,
+      "userName": "undefined",
+      "phone": "3",
+      "address": "undefined",
+      "totalBill": 196,
+      "status": "Đã hủy",
+      "date": "11/10/2022",
+      "listProductOrder": [
+        {
+          "id": "5f9d949c-e3c8-4fa4-949a-0033522a2a6e",
+          "idProduct": "10",
+          "image": "https://cf.shopee.vn/file/b380d46cc90b366fc914b8b61c467475",
+          "productName": "Mô hình người cá jinbei (one piece)",
+          "total": 118,
+          "count": 2,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          },
+          "type": "Cực hiếm"
+        },
+        {
+          "id": "9e4bed08-9a20-43d5-a3c3-2a20aaf59187",
+          "idProduct": "1",
+          "image": "https://cf.shopee.vn/file/f45123d3f84f32550d03fbd52d470e5e",
+          "productName": "Mô Hình One Piece - Mô hình Kaido",
+          "total": 78,
+          "count": 2,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          },
+          "type": "Hiếm"
+        }
+      ],
+      "createdAt": 1665501154770,
+      "updateAt": 1665501154770
+    },
+    {
+      "id": "4b5aa78a-e3a1-4efb-bb89-45ddabab554d",
+      "userId": 3,
+      "userName": "Tài Phạm",
+      "phone": "779438983",
+      "address": "47 An Hải 20",
+      "totalBill": 120,
+      "status": "Chờ xác nhận",
+      "date": "11/10/2022",
+      "listProductOrder": [
+        {
+          "id": "7b9be1f7-cdde-4242-95a2-071c79b23020",
+          "idProduct": "3",
+          "image": "https://media3.scdn.vn/img4/2020/10_06/FMCQ4bq4rJA03RTCuRYh.jpg",
+          "productName": "Mô Hình One Piece  - Nhân Vật Portgas D. ACE Bản Lớn ",
+          "total": 120,
+          "count": 3,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          },
+          "type": "Hiếm"
+        }
+      ],
+      "createdAt": 1665501251069,
+      "updateAt": 1665501251069
+    }
+  ]
+}
