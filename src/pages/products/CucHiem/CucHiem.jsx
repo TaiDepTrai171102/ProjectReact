@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { fetchCategoryAction } from '../../../stores/slices/product.slice'
 
-export default function FruitTea() {
+export default function CucHiem() {
     const productState = useSelector(state => state.product.productState)
 	const dispatch = useDispatch()
     const navigate = useNavigate()

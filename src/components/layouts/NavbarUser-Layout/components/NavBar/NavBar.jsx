@@ -126,7 +126,7 @@ export default function NavBar() {
             <NavLink to={"/"}>
               <li>Trang chủ</li>
             </NavLink>
-            <NavLink to={'/products'}>
+            <NavLink to={'/products/hanghiem'}>
               <li>Sản phẩm</li>
             </NavLink>
             <NavLink to={"/cart"}>
