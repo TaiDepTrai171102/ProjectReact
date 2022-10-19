@@ -32,10 +32,7 @@ export default function FooterCbn() {
 						</div>
 					</div>
 				</div>
-				<div className="footer__active">
-					<span>Copyright © 2021 The Coffee House. All rights reserved.</span>
-					<img src={active} alt="" />
-				</div>
+			
 			</div>
 		</>
 	)
