@@ -55,9 +55,7 @@ function AllProducts() {
     return (
         <div className="all-product">
             <div >
-                
                 <>
-
                 {loading && <div style={{textAlign:'center'}}><LoadingOutlined /></div>}
                     {listProduct?.data?.map?.((item) => {
                         return (

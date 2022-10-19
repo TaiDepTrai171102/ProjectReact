@@ -11,9 +11,9 @@ import NavBar from '../../components/layouts/NavbarUser-Layout/components/NavBar
 const ButtonGroup = Button.Group;
 
 const listSize = [
-    { label: 'Nhỏ', price: 0 },
-    { label: 'Vừa', price: 6 },
-    { label: 'Lớn', price: 10 },
+    { label: '20cm', price: 0 },
+    { label: '25cm', price: 6 },
+    { label: '30cm', price: 10 },
 ]
 
 export default function DetailProduct() {

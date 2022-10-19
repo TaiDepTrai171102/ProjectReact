@@ -155,3 +155,25 @@
 .save-add:hover{
     cursor: pointer;
 }
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    .all-product{
+        width: 100%;
+        padding-top: 100px;
+        padding-left:7%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 140px;
+    }
+    /*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .all-product{
+        width: 100%;
+        padding-top: 100px;
+        padding-left:7%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 90px;
+    }
+}
+}

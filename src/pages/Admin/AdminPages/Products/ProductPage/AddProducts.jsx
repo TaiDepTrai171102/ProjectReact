@@ -16,7 +16,7 @@ function AddProducts() {
         
     });
     const dispatch = useDispatch();
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const listProduct = useSelector(state => state.adminProduct.productState);
     const totalPage = Math.ceil(listProduct.pagination.totalPage);
     const handleOnchange = (e) => {
