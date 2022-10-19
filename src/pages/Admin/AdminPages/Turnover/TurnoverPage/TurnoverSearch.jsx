@@ -26,7 +26,7 @@ function TurnoverSearch() {
             if(item.date.substring(lengh.length -4) === dayInput && item.status === 'Đã nhận') {
                 item.listProductOrder.map(element => {  
                              
-                    if(element.type === 'coffee'){
+                    if(element.type === 'CucHiem'){
                         amount_coffee +=  +element.count;
                         setAmountCoffee(amount_coffee)
                         total_coffee += +element.total;
@@ -60,7 +60,7 @@ function TurnoverSearch() {
                     <p>Total</p>
                 </div>               
                 <div className="turnover-type">
-                    <p>Coffee</p>
+                    <p>CucHiem</p>
                     <p>{amoutCoffee}</p>
                     <p>{totalCofee}.000đ</p>
                 </div>
