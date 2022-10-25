@@ -55,6 +55,7 @@ function AllProducts() {
     return (
         <div className="all-product">
             <div >
+                <NavLink to="/admin/products/add-product" className="btn-add-product">Add Product</NavLink>
                 <>
                 {loading && <div style={{textAlign:'center'}}><LoadingOutlined /></div>}
                     {listProduct?.data?.map?.((item) => {

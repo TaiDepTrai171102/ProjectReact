@@ -38,7 +38,7 @@ function Other() {
    
     return (
         <div className="other">
-            <div>               
+            <div className="listproduct">               
                 <>
                     {listProduct.data.map((item, index) => {
                         if(item.type === 'Cực hiếm')

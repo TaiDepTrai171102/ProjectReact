@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Reponsive.css';
 import { Link, useLocation, useNavigate } from "react-router-dom";
+
 import {
   ProSidebar,
   Menu,
@@ -18,9 +19,8 @@ import "react-pro-sidebar/dist/css/styles.css";
 import NavBarAdmin from '../../../../../components/layouts/NabarAdmin-Layout/components/NabarAdmin';
 const orderRouter = {
   all:{ title: 'All', url: '/admin/products/all' },
-  hiem:{ title: 'Hiem', url: '/admin/products/hiem' },
-  cake: { title: 'Other', url: '/admin/products/other' },
-  add_product: { title: 'Add-Product', url: '/admin/products/add-product' },
+  hiem:{ title: 'Rare', url: '/admin/products/hiem' },
+  cake: { title: 'Extremely Rare', url: '/admin/products/other'},
 
 }
    

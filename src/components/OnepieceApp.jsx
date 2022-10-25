@@ -10,6 +10,10 @@ import PurchaseHistory from '../pages/auth/PurchaseHistory/PurchaseHistory';
 import DetailProduct from '../pages/DetailProduct/DetailProduct';
 import Header from '../pages/Header';
 import CategoryProduct from '../pages/products/CategoryProduct';
+import AddUser from '../pages/Admin/AdminPages/Turnover/TurnoverPage/components/AddUser';
+import CodeForInterview from '../pages/Admin/AdminPages/Turnover/TurnoverPage/components/CodeForInterView';	
+import EditUser from '../pages/Admin/AdminPages/Turnover/TurnoverPage/components/EditUser';
+import NotFound from '../pages/Admin/AdminPages/Turnover/TurnoverPage/components/NotFound';
 
 
 export function OnepieceApp() {
@@ -43,7 +47,11 @@ export function OnepieceApp() {
                     <Route path="/admin/purchase/delivered" element = {<Purchase/>}></Route>
                     <Route path="/admin/purchase/cancel" element = {<Purchase/>}></Route>
                     <Route path="/admin/turnover" element = {<Turnover/>}></Route>
+                    <Route path="/add" element = {<AddUser/>}></Route>
                     <Route path="/admin/edit/:id" element = {<Edit/>}/>
+					<Route path="/" element={<CodeForInterview />} />  
+                    <Route path="/edit/:id" element={<EditUser />} />
+                    <Route element={<NotFound />} />
 				</Routes>
 			</BrowserRouter>
 		</>

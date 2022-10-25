@@ -8,7 +8,7 @@ function NavBarAdmin() {
             <div className="navbar-a btn">
                 <NavLink to='/admin/products'>Products</NavLink>
                 <NavLink to='/admin/purchase'>Purchase</NavLink>
-                <NavLink to='/admin/turnover'>Turnover</NavLink>
+                <NavLink to='/admin/turnover'>Users</NavLink>
             </div>
         </div>
     )

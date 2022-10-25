@@ -4,7 +4,7 @@ import TurnoverSearch from "../TurnoverPage/TurnoverSearch";
 function TurnoverLayout() {
     return ( 
         <>
-            <NavBarAdmin/>
+            <NavBarAdmin/><br/>
             <TurnoverSearch/>
         </>
      );

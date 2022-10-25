@@ -142,7 +142,12 @@
 .select-img{
     margin-right: 24px;
 }
-
+:root{
+    overflow-x:hidden;
+}
+.listproduct{
+    display: flex;
+}
 .save-add{
     padding: 5px 20px;
     font-size: 18px ;
@@ -154,6 +159,10 @@
 
 .save-add:hover{
     cursor: pointer;
+}
+.btn-add-product{
+    font-size: 20px;
+    margin-left: 20px;
 }
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px){
@@ -176,4 +185,5 @@
         margin-left: 90px;
     }
 }
+
 }

@@ -51,7 +51,9 @@ export default function PurchaseLayout() {
         <ProSidebar collapsed={menuCollapse}>
           <SidebarHeader>
               <div className="logotext">
-                {!menuCollapse &&<p>Manager</p>}
+                {!menuCollapse &&<p style=
+                {{color: "red", fontSize :20}}
+                >Manager</p>}
                
               </div>
             </SidebarHeader>
